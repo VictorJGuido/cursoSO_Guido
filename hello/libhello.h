@@ -1,1 +1,1 @@
-void printHello(char *fulanito);
+void printHello(char*str);

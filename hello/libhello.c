@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include "./libhello.h"
 
-void printHello(char *fulanito){
-    printf("Hola %s\n", fulanito);
+void printHello(char*str){
+    printf("Holaaaa pero con la func %s\n", str);
 }
