@@ -12,6 +12,11 @@ main(int argc, char **argv)
     exit();
   }
   for(i=1; i<argc; i++)
+    if(atoi(argv[i])==1){
+        printf(2,"Mama soy paquito\n");
+    }
+    else{
     kill(atoi(argv[i]));
+    }
   exit();
 }
